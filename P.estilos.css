@@ -1,0 +1,26 @@
+/* Selectores de clase */
+.titulo {
+    color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+.descripcion {
+    font-size: 18px;
+    color: #333;
+}
+
+.pie {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+/* Selectores por ID */
+#encabezado {
+    background-color: #d0eaff;
+    padding: 20px;
+}
+
+#contenido {
+    margin: 20px;
+}
