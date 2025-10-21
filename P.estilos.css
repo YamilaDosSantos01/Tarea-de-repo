@@ -1,0 +1,90 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #fffafc;
+}
+#encabezado {
+  background-color: #f5e2f2;
+  padding: 20px;
+  text-align: center;
+}
+.titulo {
+  color: rgb(245, 17, 180);
+  font-size: 32px;
+}
+#contenido {
+  margin: 20px;
+  text-align: center;
+}
+.descripcion {
+  font-size: 22px;
+  color: #000000;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#info {
+  background-color: #f5e2f2;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+}
+#info h2 {
+  color: #c7008a;
+}
+.pie {
+  text-align: center;
+  background-color: #f7daf1;
+  padding: 18px;
+  font-weight: bold;
+}
+@media (max-width: 900px) {
+  #contenido {
+    margin: 10px;
+  }
+
+  .descripcion {
+    font-size: 18px;
+  }
+
+  #encabezado {
+    text-align: center;
+  }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+  .titulo {
+    font-size: 22px;
+  }
+
+  .descripcion {
+    font-size: 16px;
+  }
+
+  .pie {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  #encabezado {
+    padding: 10px;
+  }
+
+  #contenido {
+    margin: 5px;
+  }
+
+  #info {
+    margin: 8px;
+    padding: 10px;
+  }
+}
